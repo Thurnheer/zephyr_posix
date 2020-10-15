@@ -1,0 +1,10 @@
+manifest:
+    remotes:
+        -name: christoph
+        url-base: https://github.com/thurnheer
+    projects:
+        - name: zephyr
+          remote: christoph
+        - name: cop
+          remote: christoph
+
