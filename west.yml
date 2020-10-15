@@ -11,5 +11,5 @@ manifest:
           remote: christoph
           path: cop
     self:
-        path:
+        path: cpoOnZephyr
 
