@@ -5,6 +5,11 @@ manifest:
     projects:
         - name: zephyr
           remote: christoph
+          revision: v2.4.0
+          west-commands: scripts/west-commands.yml
         - name: cop
           remote: christoph
+          path: cop
+    self:
+        path:
 
