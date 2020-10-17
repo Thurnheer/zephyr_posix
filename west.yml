@@ -2,6 +2,8 @@ manifest:
     remotes:
         - name: christoph
           url-base: https://github.com/thurnheer
+        - name: zephyr
+          url-base: https://github.com/zephyrproject-rtos
     projects:
         - name: zephyr
           remote: christoph
@@ -10,6 +12,12 @@ manifest:
         - name: cop
           remote: christoph
           path: cop
+        - name: cmsis
+          path: modules/hal/cmsis
+          remote: zephyr
+        - name: hal_stm32
+          path: modules/hal/stm32
+          remote: zephyr
     self:
         path: cpoOnZephyr
 
