@@ -1,7 +1,7 @@
 manifest:
     remotes:
         - name: christoph
-          url-base: https://github.com/thurnheer
+          url-base: git@github.com:thurnheer
         - name: zephyr
           url-base: https://github.com/zephyrproject-rtos
     projects:

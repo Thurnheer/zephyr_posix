@@ -11,5 +11,6 @@ target_link_libraries(app
 target_sources(app
     PRIVATE
         src/main.cpp
+        src/uart.cpp
 )
 
