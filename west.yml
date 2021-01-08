@@ -17,6 +17,8 @@ manifest:
         - name: hal_stm32
           path: modules/hal/stm32
           remote: zephyrproject-rtos
+        - name: fibonacci
+          remote: christoph
     self:
         path: cpoOnZephyr
 

@@ -5,7 +5,7 @@ Zephyr posix hangs when executing unit tests with coverage enabled
 ## Reproduce bug
 
 ```cpp
-west init -m https://github.com/thurnheer/zephyr_posix.git zephyr_posix
+west init -m git@github.com/thurnheer:zephyr_posix.git zephyr_posix
 cd zephyr_posix
 west update
 export ZEPHYR_TOOLCHAIN_VARIANT=zephyr
