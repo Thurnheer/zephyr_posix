@@ -3,21 +3,20 @@ manifest:
         - name: christoph
           url-base: git@github.com:thurnheer
         - name: zephyr
+          url-base: https://github.com/hexagon-geo-surv/
+        - name: zephyrproject-rtos
           url-base: https://github.com/zephyrproject-rtos
     projects:
         - name: zephyr
-          remote: christoph
-          revision: v2.4.0
+          remote: zephyr
+          revision: static_local_initialisation
           west-commands: scripts/west-commands.yml
-        - name: cop
-          remote: christoph
-          path: cop
         - name: cmsis
           path: modules/hal/cmsis
-          remote: zephyr
+          remote: zephyrproject-rtos
         - name: hal_stm32
           path: modules/hal/stm32
-          remote: zephyr
+          remote: zephyrproject-rtos
     self:
         path: cpoOnZephyr
 
