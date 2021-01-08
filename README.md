@@ -13,6 +13,6 @@ west build -b native_posix fibonacci/unittests -DCONFIG_COVERAGE=y
 ./build/zephyr/zephyr.elf
 ```
 
-No coverage files are generated (no *.gcda files)
+Test hangs and no coverage files are generated (no *.gcda files)
 
 
