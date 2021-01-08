@@ -8,6 +8,7 @@ Zephyr posix hangs when executing unit tests with coverage enabled
 west init -m https://github.com/thurnheer/zephyr_posix.git zephyr_posix
 cd zephyr_posix
 west update
+export ZEPHYR_TOOLCHAIN_VARIANT=zephyr
 west build -b native_posix fibonacci/unittests -DCONFIG_COVERAGE=y
 ./build/zephyr/zephyr.elf
 ```
